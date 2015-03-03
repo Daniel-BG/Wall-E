@@ -1,0 +1,33 @@
+BeginCity
+BeginPlaces
+place 0 Sol "You are at the center of Madrid" noSpaceShip
+place 1 Callao In_this_square_you_can_find_a_code_card noSpaceShip
+place 2 Colon People_concentrates_here_to_watch_football noSpaceShip
+place 3 Exit Ok,_finally_you_have_found_your_spaceship... spaceShip
+place 4 test1 test1 noSpaceShip
+place 5 test2 test2 noSpaceShip
+place 6 test3 test3 noSpaceShip
+place 7 test4 test4 noSpaceShip
+place 8 test5 test5 noSpaceShip
+place 9 test6 test6 noSpaceShip
+EndPlaces
+BeginStreets
+street 0 place 0 south place 1 open
+street 1 place 1 east place 2 closed coloncallao
+street 2 place 2 north place 3 closed onetwothreefourfive
+street 3 place 1 south place 4 open 
+street 4 place 4 south place 5 open
+street 5 place 5 east place 6 open
+street 6 place 6 south place 7 open
+street 7 place 5 south place 8 closed blabla
+street 8 place 8 west place 9 open
+EndStreets
+BeginItems
+fuel 0 Petrol from_olds_heatings 20 3 place 0
+fuel 1 Battery to_get_cracking -50 1 place 0
+codecard 2 Card "The key is too easy" onetwothreefourfive place 1
+garbage 3 Newspapers News_on_sport 30 place 2
+codecard 4 Card25 "Opens 2 to 5" blabla place 7
+codecard 5 CardColonCallao "Opens Callao to Colo" coloncallao place 9
+EndItems
+EndCity

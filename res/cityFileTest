@@ -1,0 +1,21 @@
+BeginCity
+BeginPlaces
+place 0 Sol "You are at the center of Madrid" noSpaceShip
+place 1 Callao In_this_square_you_can_find_a_code_card noSpaceShip
+place 2 Colon People_concentrates_here_to_watch_football noSpaceShip
+place 3 Exit Ok,_finally_you_have_found_your_spaceship... spaceShip
+place 4 test test noSpaceShip
+EndPlaces
+BeginStreets
+street 0 place 0 south place 1 open
+street 1 place 1 east place 2 open
+street 2 place 2 north place 3 closed onetwothreefourfive
+street 3 place 2 east place 4 open
+EndStreets
+BeginItems
+fuel 0 Petrol from_olds_heatings 10 3 place 0
+fuel 1 Battery to_get_cracking -50 1 place 0
+codecard 2 Card "The key is too easy" onetwothreefourfive place 1
+garbage 3 Newspapers News_on_sport 30 place 2
+EndItems
+EndCity
